@@ -67,7 +67,7 @@ li.innerHTML = `<input type="checkbox" class="todo-checkbox" ${todo.completed ? 
 ## 🧪 Phase 4: Testing Implementation
 
 ### **User Request:**
-> "Generate Jest unit test for the 'addTodo' function. Include test for adding a new todo, and for handling empty input. Create te respective folder for this tests."
+> "Generate Jest unit test for the 'addTodo' function. Include test for adding a new todo, and for handling empty input. Create the respective folder for these tests."
 
 ### **Implementation:**
 - Set up Jest testing framework with jsdom environment
@@ -112,7 +112,7 @@ Object.defineProperty(window, 'localStorage', {
 ## 🏗️ Phase 5: Modular Refactoring
 
 ### **User Request:**
-> "can you refactor script.js to improve readability and break it into smaller, more focused parts? I want to separate in different files, because i want to create separated tests for every functions in a future"
+> "can you refactor script.js to improve readability and break it into smaller, more focused parts? I want to separate in different files, because I want to create separated tests for every function in the future"
 
 ### **Refactoring Strategy:**
 Broke down monolithic `script.js` into focused, testable modules:
@@ -177,7 +177,7 @@ public/js/
 ## 📁 Phase 6: File Organization
 
 ### **User Request:**
-> "can you delete the non used files?"
+> "can you delete the non-used files?"
 
 ### **Cleanup Actions:**
 - Removed `public/script.js` (replaced by modular structure)
@@ -185,7 +185,7 @@ public/js/
 - Verified clean project structure
 
 ### **User Request:**
-> "create appropiate folders for every files and put them in those folders"
+> "create appropriate folders for every file and put them in those folders"
 
 ### **Organization Strategy:**
 Created logical folder structure based on functionality:
@@ -221,7 +221,7 @@ public/
 ## 📚 Phase 7: Documentation Update
 
 ### **User Request:**
-> "if it is necessary, update the readme file"
+> "if it is necessary, update the README file"
 
 ### **Documentation Enhancements:**
 Completely updated `README.md` with:
